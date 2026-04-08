@@ -13,7 +13,7 @@ import java.time.temporal.ChronoUnit;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://annivarsary-seven.vercel.app")
+@CrossOrigin(origins = "https://annivarsary-seven.vercel.app/")
 public class AuthController {
 
     @Value("${app.unlock.date}")
